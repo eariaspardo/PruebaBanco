@@ -8,7 +8,7 @@ Prueba del Banco de Bogota
 - para acceder a los servicios se probo con PostMan a traves de la URL de tipo:
 * GET " http://localhost:8080/api/clientes ", 
 * GET " http://localhost:8080/api/clientes/? ",  
-*POST " http://localhost:8080/api/clientes" enviando en el cuerpo del proyecto el formato JSON Empl: 
+- POST " http://localhost:8080/api/clientes" enviando en el cuerpo del proyecto el formato JSON Empl: 
 {
                                                                                                                                                                                       "id": 13455,
                                                                                                                                                                                       "nombre": "Edilson",
@@ -16,7 +16,7 @@ Prueba del Banco de Bogota
                                                                                                                                                                                       "email": "edilsoncorreo@gmail.com",
                                                                                                                                                                                       "createAt": "2018-01-01"
                                                                                                                                                                                   } 
-*PUT " http://localhost:8080/api/clientes/? ",enviando en el cuerpo del proyecto el formato JSON Empl: 
+- PUT " http://localhost:8080/api/clientes/? ",enviando en el cuerpo del proyecto el formato JSON Empl: 
 {
                                                                                                                                                                                       "id": 83655,
                                                                                                                                                                                       "nombre": "Edilson",
